@@ -1,41 +1,130 @@
 h1{
-	font-family: Arial; 
+	font-family: Helvetica; 
 	font-size: 50px; 
 	text-align: center;
-	color: black; 
+	color: #130038; 
 }
 
 h2 {
-	font-family: Arial; 
-	color: black; 
+	font-family: Helvetica; 
+	color: white; 
+}
+h4 {
+	font-family: Helvetica; 
+	color: white; 
+	text-align: center;
 }
 
 body{
-	background-color: #130038; 
+	background-color: white; 
 }
 p {
-	font-family: Arial; 
+	font-family: Helvetica; 
 	color: black;
 	text-decoration: bold; 
 }
 
+a{
+	text-decoration: none underline; 
+	color: #130038; 
+}
+
+a.other-projects {
+	text-decoration: none underline; 
+	color: white; 
+}
+
+
 #header p{
 	text-align: center;
+	margin-left: 20px; 
 }
 #feedback p{
 	text-align: left;
+	margin-left: 20px; 
 }
 
 #todo p{
 	text-align: left;
-	font-family: Arial; 
+	font-family: Helvetica; 
 	color: black;
-}
-.airtable-embed{
-
+	margin-left: 20px; 
 }
 
-a{
-	text-decoration: none underline; 
-	color: darkgrey; 
+.wrapper-form{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+ 	height: 650px;
+ 	background-color: #130038;
 }
+
+.box-form{
+	display: block;
+	position: relative; 
+	top: 25px;
+    width:100%;
+    text-align:left;
+    background-color: #130038;
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.airtable-embed-form iframe{
+	display: block;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #130038;
+}
+
+.wrapper-table{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+ 	height: 850px;
+ 	background-color: #130038;
+}
+
+.box-table{
+	display: block;
+	position: relative; 
+	top: 25px;
+    text-align:left;
+    background-color: #130038;
+    width: 95%;
+    height: 800px;
+    margin: 0 auto;
+}
+.airtable-embed-table iframe{
+	display: block;
+    width: 93%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #130038;
+}
+
+.wrapper-footer{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+ 	height: 250px;
+ 	background-color: #130038;
+}
+
+.box-footer{
+	display: block;
+	position: relative; 
+	top: 30px;
+    text-align:left;
+    background-color: #130038;
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.box-footer p{
+	color: white;
+}
+
