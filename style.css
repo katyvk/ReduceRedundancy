@@ -1,0 +1,41 @@
+h1{
+	font-family: Arial; 
+	font-size: 50px; 
+	text-align: center;
+	color: lightgrey; 
+}
+
+h2 {
+	font-family: Arial; 
+	color: lightgrey; 
+}
+
+body{
+	background-color: #000537; 
+}
+p {
+	font-family: Arial; 
+	color: lightgrey;
+	text-decoration: bold; 
+}
+
+#header p{
+	text-align: center;
+}
+#feedback p{
+	text-align: left;
+}
+
+#todo p{
+	text-align: left;
+	font-family: Arial; 
+	color: lightgrey;
+}
+.airtable-embed-form{
+
+}
+
+a{
+	text-decoration: none underline; 
+	color: lightgrey; 
+}
