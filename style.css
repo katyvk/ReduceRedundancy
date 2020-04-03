@@ -2,20 +2,20 @@ h1{
 	font-family: Arial; 
 	font-size: 50px; 
 	text-align: center;
-	color: lightgrey; 
+	color: black; 
 }
 
 h2 {
 	font-family: Arial; 
-	color: lightgrey; 
+	color: black; 
 }
 
 body{
-	background-color: #000537; 
+	background-color: #130038; 
 }
 p {
 	font-family: Arial; 
-	color: lightgrey;
+	color: black;
 	text-decoration: bold; 
 }
 
@@ -29,13 +29,13 @@ p {
 #todo p{
 	text-align: left;
 	font-family: Arial; 
-	color: lightgrey;
+	color: black;
 }
-.airtable-embed-form{
+.airtable-embed{
 
 }
 
 a{
 	text-decoration: none underline; 
-	color: lightgrey; 
+	color: darkgrey; 
 }
