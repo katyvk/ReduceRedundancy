@@ -128,3 +128,17 @@ a.other-projects {
 	color: white;
 }
 
+.airtable-embed-table p{
+	color: white;
+}
+
+.airtable-embed-table a{
+	text-decoration: none underline; 
+	color: white; 
+}
+
+#email img{
+	display: block;
+	position: absolute;
+	top: 500px; 
+}
